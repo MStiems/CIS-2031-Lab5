@@ -10,13 +10,22 @@ using std::endl;
 //          and returns an integer. Then try to run your program.
 
 //YOUR WORK HERE
+int cube (int number);
+
+
+
 
 //Step 2:   DEFINE (or "implement") the cube function, but JUST MAKE IT RETURN ZERO
 //          Then run your program
+int cube (int number) {
+return number * number * number;
+ 
 
+}
 //YOUR WORK HERE
 
 //Step 3:   In the space above, fix your cube function to return the input cubed
+
 
 
 //Step 4:   We will work together to submit these changes to GitHub
